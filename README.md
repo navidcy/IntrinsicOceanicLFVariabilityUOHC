@@ -44,6 +44,7 @@ Constantinou, N. C. and Hogg, A. McC. (2021) Intrinsic oceanic decadal variabili
 │   ├── bilinear_tracer_weights_in025degACCESSOM2_out1deg.nc
 │   └── bilinear_tracer_weights_in010degACCESSOM2_out1deg.nc
 ├── output
+│   ├── README.md
 │   ├── cmems-monthlymean-regridded
 │   │   ├── ssh-XXXX.nc
 │   │   └── ...
