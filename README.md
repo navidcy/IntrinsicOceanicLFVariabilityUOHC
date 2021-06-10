@@ -1,4 +1,4 @@
-# Intrinsic oceanic decadal variability of upper-ocean heat content
+# Notebooks for "Intrinsic oceanic decadal variability of upper-ocean heat content"
 
 A repository with Jupyter notebooks that reproduce the analyses and figures included in the manuscript
 
