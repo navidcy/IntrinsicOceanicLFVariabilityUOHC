@@ -24,13 +24,15 @@ Constantinou, N. C. and Hogg, A. McC. (2021) Intrinsic oceanic decadal variabili
 ## Contents
 
 - [`prepare-raw-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/prepare-raw-data.ipynb): download raw data from various ACCESS-OM2 models and from CMEMS and manipulate (regrid, coarsen, montly averages, 2D reduction) to produce output in `output` directory.
+- `grids.zip`: compressed `.nc` files with grid details for the ACCESS-OM2 models at three resolutions. Unzip before running notebooks.
+- `interpolation_weights`: compressed `.nc` files with the interpolation weights that `xesmf` package uses to regrid the ACCESS-OM2 model output and the CMEMS satellite altimetry onto a regular longitude-latitude grid with 1 degree lateral resolution. Unzip before running notebooks.
 
 ### Directory structure
 
 ```
 .
-├── README.md               # Basic info for the repo that shows up in the landing page
-├── LICENSE                 # The project's license
+├── README.md
+├── LICENSE
 ├── .gitinore
 ├── grids
 │   ├── ocean_grid_10.nc
