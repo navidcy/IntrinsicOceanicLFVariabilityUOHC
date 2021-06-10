@@ -1,6 +1,6 @@
 # Notebooks for "Intrinsic oceanic decadal variability of upper-ocean heat content"
 
-A repository with Jupyter notebooks that reproduce the analyses and figures included in the manuscript
+A repository with Jupyter notebooks that reproduce the analyses and figures included in the manuscript:
 
 Constantinou, N. C. and Hogg, A. McC. (2021) Intrinsic oceanic decadal variability of upper-ocean heat content. _J. Climate_. (in press; doi:[10.1175/JCLI-D-20-0962.1](https://doi.org/10.1175/JCLI-D-20-0962.1))
 
