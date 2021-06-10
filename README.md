@@ -23,4 +23,4 @@ Constantinou, N. C. and Hogg, A. McC. (2021) Intrinsic oceanic decadal variabili
 
 ## Contents
 
-
+- [`prepare-raw-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/prepare-raw-data.ipynb): download raw data from various ACCESS-OM2 models and from CMEMS and manipulate (regrid, coarsen, montly averages, 2D reduction) to produce output in `output` directory.
