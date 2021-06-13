@@ -130,3 +130,8 @@ dmypy.json
 
 # Mac OS X
 .DS_Store
+
+# output
+output/cmems-*
+output/ssh-*
+output/uohc-*
