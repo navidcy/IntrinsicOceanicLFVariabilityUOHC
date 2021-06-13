@@ -20,14 +20,15 @@ Constantinou, N. C. and Hogg, A. McC. (2021) Intrinsic oceanic decadal variabili
 }
 ```
 
-
 ## Contents
 
-- `output`: Output produced by `prepare-raw-data.ipynb`. Alternatively, if you don't have access to raw ACCESS-OM2 model outputs, you can dowload the processed  output from the zenodo repository at doi:[10.5281/zenodo.4924969](https://doi.org/10.5281/zenodo.4924969) and populate the `output` directory.
-- [`prepare-raw-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/prepare-raw-data.ipynb): Downloads raw data from various ACCESS-OM2 models and from CMEMS,  manipulates the data (regrid, coarsen, montly averages, 2D reduction), and produces smaller datasets
+- `figures`: Figures produced by `process-data.ipynb` notebook.
+- `output`: Output produced by `prepare-raw-data.ipynb`. Alternatively, if you don't have access to raw ACCESS-OM2 model outputs, you can dowload the processed  output from the zenodo repository at doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate the `output` directory.
+- [`prepare-raw-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/prepare-raw-data.ipynb): Downloads raw data from various ACCESS-OM2 models and from CMEMS,  manipulates the data (regrid, coarsen, montly averages, 2D reductions), and produces smaller datasets
 saved in `output` directory
 - `grids.zip`: compressed `.nc` files with grid details for the ACCESS-OM2 models at three resolutions. Unzip before running notebooks
 - `interpolation_weights`: compressed `.nc` files with the interpolation weights that `xesmf` package uses to regrid the ACCESS-OM2 model output and the CMEMS satellite altimetry onto a regular longitude-latitude grid with 1 degree lateral resolution. Unzip before running notebooks
+- [`process-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/process-data.ipynb): Process output from `output` directory to produce figures.
 
 ### Directory structure
 
