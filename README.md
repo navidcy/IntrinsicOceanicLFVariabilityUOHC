@@ -66,6 +66,9 @@ saved in `output` directory
 │   └── uohc-1deg-0m-50m-IAF
 │       ├── uohc-XXXX.nc
 │       └── ...
+├── figures
+│   ├── figure1.pdf
+│   └── ...
 ├── prepare-raw-data.ipynb
-└── ...
+└── process-data.ipynb
 ```
