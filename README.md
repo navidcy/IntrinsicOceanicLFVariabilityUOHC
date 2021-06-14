@@ -51,7 +51,7 @@ are summarized in the table below.
 | 1   | IAF     | `1deg_jra55v13_iaf_spinup1_B1`    |
 | 1   | RYF     | `1deg_jra55_ryf9091_gadi`    |
 | 0.25   | IAF     | `025deg_jra55v13_iaf_gmredi6`    |
-| 0.25   | RYF     | `01deg_jra55v13_ryf9091`    |
+| 0.25   | RYF     | `025deg_jra55_ryf9091_gadi`    |
 | 0.10   | IAF     | `01deg_jra55v140_iaf`, `01deg_jra55v140_iaf_cycle2`, `01deg_jra55v140_iaf_cycle3`    |
 | 0.10   | RYF     | `01deg_jra55v13_ryf9091`    |
 
