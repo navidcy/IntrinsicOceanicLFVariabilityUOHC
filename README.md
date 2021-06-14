@@ -39,8 +39,7 @@ saved in `output` directory
 
 ## ACCESS-OM2 model output
 
-Some of the raw ACCESS-OM2 model output is available at doi:[10.4225/41/5a2dc8543105a](https://doi.org/10.4225/41/5a2dc8543105a). However, to access that users need to have access to Australia's
-HPC.
+Some of the raw ACCESS-OM2 model output is available at doi:[10.4225/41/5a2dc8543105a](https://doi.org/10.4225/41/5a2dc8543105a). However, accessing output from this doi requires users to have access to Australia's HPC.
 
 Users with access to Australia's HPC systems should be able to download all model output used
 here given that they are members of projects `cj50` and `ik11`. The experiments we use here
