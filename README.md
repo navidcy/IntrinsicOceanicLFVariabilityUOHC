@@ -54,6 +54,8 @@ are summarized in the table below.
 | 0.10   | IAF     | `01deg_jra55v140_iaf`, `01deg_jra55v140_iaf_cycle2`, `01deg_jra55v140_iaf_cycle3`    |
 | 0.10   | RYF     | `01deg_jra55v13_ryf9091`    |
 
+Notebook `prepare-raw-data.ipynb` utilizes [`cosima-cookbook`](https://github.com/cosima/cosima-cookbook)'s functionality to load the required variables needed from the above-mentioned experiments.
+
 Alternatively, if access to Australia's HPC seems cumbersome, feel free to download the processed output from Zenodo repository doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate the `output` directory.
 
 
