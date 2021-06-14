@@ -39,9 +39,9 @@ saved in `output` directory
 
 ## ACCESS-OM2 model output
 
-Some of the raw ACCESS-OM2 model output is available at doi:[10.4225/41/5a2dc8543105a](https://doi.org/10.4225/41/5a2dc8543105a). However, accessing output from this doi requires users to have access to Australia's HPC.
+Some of the raw ACCESS-OM2 model output is available at doi:[10.4225/41/5a2dc8543105a](https://doi.org/10.4225/41/5a2dc8543105a). However, accessing output from this doi requires users to have access the [Australian National Computing Infrastructure (NCI)](https://nci.org.au).
 
-Users with access to Australia's HPC systems should be able to download all model output used
+Users with access to NCI's HPC systems should be able to download all model output used
 here given that they are members of projects `cj50` and `ik11`. The experiments we use here
 are summarized in the table below.
 
@@ -56,7 +56,7 @@ are summarized in the table below.
 
 Notebook `prepare-raw-data.ipynb` utilizes [`cosima-cookbook`](https://github.com/cosima/cosima-cookbook)'s functionality to load the required variables needed from the above-mentioned experiments.
 
-Alternatively, if getting access to Australia's HPC seems cumbersome, then feel free to download the processed output from Zenodo repository doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate with that the `output` directory.
+Alternatively, if getting access to the [Australian National Computing Infrastructure](https://nci.org.au) seems cumbersome, then feel free to download the processed output from Zenodo repository doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate with that the `output` directory.
 
 
 ## Directory structure
