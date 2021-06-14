@@ -54,6 +54,8 @@ are summarized in the table below.
 | 0.10   | IAF     | `01deg_jra55v140_iaf`, `01deg_jra55v140_iaf_cycle2`, `01deg_jra55v140_iaf_cycle3`    |
 | 0.10   | RYF     | `01deg_jra55v13_ryf9091`    |
 
+(The IAF 0.10 degree outputs are also available via [THREDDS](https://www.unidata.ucar.edu/software/tds/current) at [`https://dapds00.nci.org.au/thredds/catalogs/cj50/access-om2/raw-output/access-om2-01/access-om2-01.html`](https://dapds00.nci.org.au/thredds/catalogs/cj50/access-om2/raw-output/access-om2-01/access-om2-01.html).)
+
 Notebook `prepare-raw-data.ipynb` utilizes [`cosima-cookbook`](https://github.com/cosima/cosima-cookbook)'s functionality to load the required variables needed from the above-mentioned experiments.
 
 Alternatively, if getting access to the [Australian National Computing Infrastructure](https://nci.org.au) seems cumbersome, then feel free to download the processed output from Zenodo repository doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate with that the `output` directory.
