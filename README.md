@@ -23,14 +23,14 @@ Constantinou, N. C. and Hogg, A. McC. (2021) Intrinsic oceanic decadal variabili
 
 ## Contents
 
-- [`prepare-raw-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/prepare-raw-data.ipynb): Downloads raw data from various ACCESS-OM2 models and from CMEMS,  manipulates the data (regrid, coarsen, montly averages, 2D reductions), and produces smaller datasets
+- [`prepare-raw-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/prepare-raw-data.ipynb): Downloads raw data from various ACCESS-OM2 models and from CMEMS,  manipulates the data (regrids, coarsens, monthly averages, 2D reductions), and produces smaller datasets
 saved in `output` directory
 
 - `grids.zip`: compressed `.nc` files with grid details for the ACCESS-OM2 models at three resolutions. Unzip before running notebooks
 
 - `interpolation_weights.zip`: compressed `.nc` files with the interpolation weights that `xesmf` package uses to regrid the ACCESS-OM2 model output and the CMEMS satellite altimetry onto a regular longitude-latitude grid with 1 degree lateral resolution. Unzip before running notebooks
 
-- `output`: Output produced by `prepare-raw-data.ipynb`. Alternatively, if you don't have access to raw the ACCESS-OM2 model output, you can dowload the processed output from the Zenodo repository at doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate the `output` directory.
+- `output`: Empty directory that is populated with output produced by `prepare-raw-data.ipynb`. Alternatively, if you don't have access to the raw the ACCESS-OM2 model output, you can dowload the processed output from the Zenodo repository at doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate the `output` directory.
 
 - [`process-data.ipynb`](https://nbviewer.jupyter.org/github/navidcy/IntrinsicOceanicLFVariabilityUOHC/blob/master/process-data.ipynb): Process output from `output` directory to produce figures.
 
@@ -58,7 +58,7 @@ are summarized in the table below.
 
 Notebook `prepare-raw-data.ipynb` utilizes [`cosima-cookbook`](https://github.com/cosima/cosima-cookbook)'s functionality to load the required variables needed from the above-mentioned experiments.
 
-Alternatively, if getting access to the [Australian National Computing Infrastructure](https://nci.org.au) seems cumbersome, then feel free to download the processed output from Zenodo repository doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and populate with that the `output` directory.
+Alternatively, if getting access to the [Australian National Computing Infrastructure](https://nci.org.au) seems cumbersome, then feel free to download the processed output from Zenodo repository doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and use this processed data to populate the `output` directory.
 
 
 ## Directory structure
