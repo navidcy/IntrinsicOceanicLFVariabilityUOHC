@@ -8,12 +8,10 @@ Constantinou, N. C. and Hogg, A. McC. (2021) Intrinsic oceanic decadal variabili
 ```bibtex
 @article{Constantinou-Hogg-2021,
   doi = {10.1175/JCLI-D-20-0962.1},
-  url = {https://doi.org/10.1175/JCLI-D-20-0962.1},
-  note = {In press.},
   year = {2021},
-  volume = {},
-  number = {},
-  pages = {},
+  volume = {34},
+  number = {15},
+  pages = {6175-6189},
   author = {Navid C. Constantinou and Andrew McC. Hogg},
   title = {Intrinsic oceanic decadal variability of upper-ocean heat content},
   journal = {J. Climate}
