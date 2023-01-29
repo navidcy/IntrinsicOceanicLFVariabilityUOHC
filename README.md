@@ -65,12 +65,13 @@ are summarized in the table below.
 (The IAF 0.10 degree outputs are also available via [THREDDS](https://www.unidata.ucar.edu/software/tds/current) at [`https://dapds00.nci.org.au/thredds/catalogs/cj50/access-om2/raw-output/access-om2-01/access-om2-01.html`](https://dapds00.nci.org.au/thredds/catalogs/cj50/access-om2/raw-output/access-om2-01/access-om2-01.html).)
 
 Notebook `prepare-raw-data.ipynb` utilizes [`cosima-cookbook`](https://github.com/cosima/cosima-cookbook)'s
-functionality to load the required variables needed from the above-mentioned experiments.
+functionality to load the required variables needed from the above-mentioned experiments, do some processing
+(e.g., slice and regridding) and then save them as `.nc` files in the `output` directory.
 
-Alternatively, if getting access to the [Australian National Computing Infrastructure](https://nci.org.au)
-seems cumbersome, then feel free to download the processed output from Zenodo repository
-doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and use this processed data to
-populate the `output` directory.
+If getting access to the [Australian National Computing Infrastructure](https://nci.org.au)
+seems cumbersome, then you can download the processed output from the Zenodo repository
+doi:[10.5281/zenodo.4924968](https://doi.org/10.5281/zenodo.4924968) and use this sliced/regridded data to
+populate the `output` directory and proceed with analysing it.
 
 
 ## Directory structure
